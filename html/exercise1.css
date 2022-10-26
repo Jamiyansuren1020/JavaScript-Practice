@@ -1,0 +1,52 @@
+.James-Todbilguun {
+    font-size: 50px;
+    text-align: center;
+    color: green;
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.shape-1 {
+    border-color: orange;
+    border-style: solid;
+    border-width: 2px;
+    border-top-right-radius: 20px;
+    height: 45px;
+    width: 50px;
+}
+
+.shape-2 {
+    border-color: green;
+    border-style: solid;
+    border-width: 2px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 45px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+.shape-3 {
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    height: 45px;
+    width: 150px;
+    margin-top: 5px;
+}
+
+.shape-4 {
+    border-color: black;
+    border-style: solid;
+    background-color: yellow;
+    border-width: 2px;
+    border-radius: 30px;
+    height: 45px;
+    width: 150px;
+    margin-top: 5px;
+}

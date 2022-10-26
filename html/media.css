@@ -1,0 +1,34 @@
+.most-smart-phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    color: red;
+}
+/*.low-reso {
+    display: flex;
+    justify-content: flex-start;
+    font-size: 150px;
+    color: violet;
+}
+.tablet {
+    display: flex;
+    color: blue;
+    font-size: 150px
+}*/
+
+@media screen and (min-width: 320px) and (max-width: 480px)  {
+    .most-smart-phone {
+        color: green;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 767px) {
+    .most-smart-phone {
+        color: orange;
+    }
+}
+@media screen and (min-width: 1281px) {
+    .most-smart-phone {
+        color: purple;
+    }
+}

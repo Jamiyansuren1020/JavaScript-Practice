@@ -1,0 +1,37 @@
+.chessboard {
+    border: 1px solid black;
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    text-shadow: 10px;
+}
+.row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 12.5%;
+}
+
+.black {
+    background-color: black;
+    width: 12.5%;
+    height: 100%;
+}
+.white {
+    width: 12.5%;
+    height: 100%;
+}
+.piece {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-shadow: 2px 2px 3px black;
+}
+.bishop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-shadow: 2px 2px 3px white;
+}

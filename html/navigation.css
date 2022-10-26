@@ -1,0 +1,25 @@
+.nav-bar {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #87cefa;
+    justify-content: space-between;
+    margin: 0px, 10px;
+}
+.nav-bar-menu {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-bar-item {
+    display: flex;
+    padding: 10px;
+    color: white;
+    justify-content: space-around;
+    align-self: center;
+}
+a{
+    color:white;
+    text-decoration: none;
+    padding: 5px;
+}

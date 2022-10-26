@@ -1,0 +1,18 @@
+.my-first-div /*#my-unique-second-div*/ {
+    font-size: 50px;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    /*border-radius: 10px;*/
+    border-top-left-radius: 10px;
+    margin-bottom: 5px;
+    background-color: rgb(0, 0, 255);
+    padding-left: 8px;
+    border-color: black;
+    text-decoration: underline line-through;
+    text-align: center;
+    cursor: grab;
+}
+.my-first-div:active {
+    cursor: grabbing;
+}

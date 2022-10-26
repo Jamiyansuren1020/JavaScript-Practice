@@ -1,0 +1,57 @@
+.flex-item-1 {
+    display: flex;
+    justify-content: space-between;
+}
+.middle {
+    margin: 2px auto;
+    width: 600px;
+    background-color: black;
+    flex-wrap: wrap;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.customize {
+    border:1px solid white;
+    color: white;
+    border-radius: 5px;
+    justify-content: flex-end;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.nav-btn {
+padding: 0px 16px;
+}
+.front-end-1 {
+    color: white;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+.top-right-icons {
+    justify-content: space-between;
+}
+.bottom {
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    flex-direction: column;
+}
+.meet { 
+    border-radius: 5px;
+    flex-wrap: wrap;
+    display: flex;
+    border: 1px solid black;
+    
+    height: 50px;
+    
+}
+.join {
+    height: fit-content;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    top: 5px;
+    border: 1px solid black;
+}

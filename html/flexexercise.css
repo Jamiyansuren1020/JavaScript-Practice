@@ -1,0 +1,15 @@
+.parent {
+    border: 1px solid black;
+    height: 200px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    padding: 10px
+}
+.center-me {
+    border: solid violet;
+    border-radius: 5px;
+    margin-bottom: 20px
+
+}

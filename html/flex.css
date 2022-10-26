@@ -1,0 +1,16 @@
+.flex-container {
+    border: 1px solid black;
+    height: 100px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    /* justify-content: space-evenly; */
+    align-items: flex-start;
+    /* flex-wrap: wrap;
+    flex-wrap: wrap-reverse; */
+}
+
+.flex-item {
+    border: 1px solid violet;
+    border-radius: 5px;
+    padding: 5px 15px;
+}

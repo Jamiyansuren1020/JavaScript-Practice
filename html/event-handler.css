@@ -1,0 +1,10 @@
+.piece {
+    padding: 5px 10px;
+    border: 1px solid violet;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.piece.selected {
+    background-color: brown;
+    color: white;
+}
